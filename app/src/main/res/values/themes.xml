@@ -6,6 +6,7 @@
     </style>
 
     <style name="Theme.WayWeGo" parent="Base.Theme.WayWeGo" />
+
     <style name="Theme.WayWeGo.Fullscreen" parent="Theme.WayWeGo">
         <item name="android:actionBarStyle">@style/Widget.Theme.WayWeGo.ActionBar.Fullscreen</item>
         <item name="android:windowActionBarOverlay">true</item>
@@ -16,4 +17,13 @@
         <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
         <item name="fullscreenTextColor">@color/light_blue_A200</item>
     </style>
+
+    <style name="Theme.WayWeGo.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.WayWeGo.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.WayWeGo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
