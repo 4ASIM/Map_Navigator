@@ -54,4 +54,6 @@ dependencies {
 
     //Mapbox sdk
     implementation("com.mapbox.maps:android:11.7.1")
+
+
 }
